@@ -1,6 +1,6 @@
 # Naija Pikin
 
-A hopefully funny and non-annoying way to pick random names for unregistered users.
+A hopefully funny and non-annoying way to pick random names for unregistered users. Available at [stigwue/naija_pikin](https://github.com/stigwue/naija_pikin).
 
 Basically, it combines an adjective pulled from [adjectivesthatstart.com](http://adjectivesxthatstart.com/) and a noun (a Nigerian name pulled from [faker.ng](https://github.com/binkabir/faker.ng)).
 
