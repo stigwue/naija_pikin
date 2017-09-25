@@ -9,5 +9,5 @@
     "license": "MIT",
     "autoload": {
         "files": ["naija_pikin.php"]
-    },
+    }
 }
