@@ -1,0 +1,13 @@
+{
+    "name": "stigwue/naija-pikin",
+    "description": "A funny and hopefully non-annoying way to pick random names for unregistered users or anonymize identities.",
+    "keywords": [
+        "user",
+        "nigeria",
+        "anonymize"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files": ["naija_pikin.php"]
+    },
+}
