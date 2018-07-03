@@ -18,29 +18,30 @@ $name = $np->getName();
 echo $name;
 ```
 
+There are more examples in the example.php file.
+
 ## Functions
 
 ### getNoun
 
 **getNoun** takes two optional parameters: _randomize_, a boolean parameter (default value **true**) and _noun_, a string parameter (default value **Igwue**).
 
-If _randomize_ is **true**, a random noun is selected from the supplied dictionary. If **false**, the supplied _noun_ parameter is returned (if no previous noun has been 'got') or the previous gotten noun is returned.
+If _randomize_ is **true**, a random noun is selected from the supplied dictionary. If **false**, the supplied _noun_ parameter is returned.
 
 ### getAdjective
 
-**getAdjective** takes two optional parameters: _randomize_, a boolean parameter (default value **true**) and _adjective_, a string parameter (default value **Irresistible**).
+**getAdjective** takes three optional parameters: _randomize_, a boolean parameter (default value **true**), _letter_, a character parameter (default value **blank**) and _adjective_, a string parameter (default value **Irresistible**).
 
-If _randomize_ is **true**, a random adjective with the same starting letter as the noun (see **getNoun**) is selected from the supplied dictionary. If **false**, the supplied _adjective_ parameter is returned (if no previous adjective has been 'got') or the previous gotten adjective is returned.
+If _randomize_ is **true**, a random adjective with starting letter same as _letter_ is selected from the supplied dictionary. If **false**, the supplied _adjective_ parameter is returned.
 
 ### getName
 
 **getName** takes a single optional parameter: _randomize_, a boolean parameter (default value **true**).
 
-It combines an adjective with a noun to produce a _name_.
+It combines an adjective with a noun.
 
-If _randomize_ is **true**, a random name is generated. If **false**, the default, _Irresistible Igwue_ is returned (if no _name_ has been 'got') or the previous gotten name.
+If _randomize_ is **true**, a random name is generated. If **false**, the default, _Irresistible Igwue_ is returned.
 
 ## To Do
 
-* Remove insultive adjectives or put in a flag to use or exclude insultive adjective.
-* Add more usage for this like salutations e.g Thrilling Tuesday.
+* Remove insultive adjectives or put in a flag to exclude them.
