@@ -6,9 +6,17 @@ Basically, it combines an adjective pulled from [adjectivesthatstart.com](http:/
 
 I have not gone thorugh the adjectives to remove insultive ones!
 
+## Installation
+
+Installation is via composer.
+
+```
+composer require stigwue/naija-pikin
+```
+
 ## Usage
 
-Here is a simple example.
+There are more examples in the example.php file but below is a simple one.
 
 ```php
 $np = new NaijaPikin('path_to_to/naija_pikin/dictionary.json');
@@ -17,8 +25,6 @@ $name = $np->getName();
 
 echo $name;
 ```
-
-There are more examples in the example.php file.
 
 ## Functions
 
