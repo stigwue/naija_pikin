@@ -102,7 +102,7 @@ class NaijaPikin
 		}
 	}
 
-	public function getName()
+	public function getName($randomize = true)
 	{
 		$noun = $this->getNoun($randomize);
 		$adjective = $this->getAdjective($randomize, strtolower($noun[0]));
